@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2B625A5154B1DEC00870699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B625A4154B1DEC00870699 /* UIKit.framework */; };
+		A2B625A7154B1DEC00870699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B625A6154B1DEC00870699 /* Foundation.framework */; };
+		A2B625A9154B1DEC00870699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B625A8154B1DEC00870699 /* CoreGraphics.framework */; };
+		A2B625AF154B1DEC00870699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B625AD154B1DEC00870699 /* InfoPlist.strings */; };
+		A2B625B1154B1DEC00870699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B625B0154B1DEC00870699 /* main.m */; };
+		A2B625B5154B1DEC00870699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B625B4154B1DEC00870699 /* AppDelegate.m */; };
+		A2B625BD154B1DEC00870699 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B625BC154B1DEC00870699 /* SenTestingKit.framework */; };
+		A2B625BE154B1DEC00870699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B625A4154B1DEC00870699 /* UIKit.framework */; };
+		A2B625BF154B1DEC00870699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2B625A6154B1DEC00870699 /* Foundation.framework */; };
+		A2B625C7154B1DEC00870699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2B625C5154B1DEC00870699 /* InfoPlist.strings */; };
+		A2B625CA154B1DEC00870699 /* Accelerometer_Data_LoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B625C9154B1DEC00870699 /* Accelerometer_Data_LoggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2B625C0154B1DEC00870699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2B62597154B1DEC00870699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2B6259F154B1DEC00870699;
+			remoteInfo = "Accelerometer-Data-Logger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2B625A0154B1DEC00870699 /* Accelerometer-Data-Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accelerometer-Data-Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B625A4154B1DEC00870699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2B625A6154B1DEC00870699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2B625A8154B1DEC00870699 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2B625AC154B1DEC00870699 /* Accelerometer-Data-Logger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accelerometer-Data-Logger-Info.plist"; sourceTree = "<group>"; };
+		A2B625AE154B1DEC00870699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B625B0154B1DEC00870699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2B625B2154B1DEC00870699 /* Accelerometer-Data-Logger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accelerometer-Data-Logger-Prefix.pch"; sourceTree = "<group>"; };
+		A2B625B3154B1DEC00870699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2B625B4154B1DEC00870699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2B625BB154B1DEC00870699 /* Accelerometer-Data-LoggerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Accelerometer-Data-LoggerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B625BC154B1DEC00870699 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A2B625C4154B1DEC00870699 /* Accelerometer-Data-LoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accelerometer-Data-LoggerTests-Info.plist"; sourceTree = "<group>"; };
+		A2B625C6154B1DEC00870699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2B625C8154B1DEC00870699 /* Accelerometer_Data_LoggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accelerometer_Data_LoggerTests.h; sourceTree = "<group>"; };
+		A2B625C9154B1DEC00870699 /* Accelerometer_Data_LoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accelerometer_Data_LoggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2B6259D154B1DEC00870699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B625A5154B1DEC00870699 /* UIKit.framework in Frameworks */,
+				A2B625A7154B1DEC00870699 /* Foundation.framework in Frameworks */,
+				A2B625A9154B1DEC00870699 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B625B7154B1DEC00870699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B625BD154B1DEC00870699 /* SenTestingKit.framework in Frameworks */,
+				A2B625BE154B1DEC00870699 /* UIKit.framework in Frameworks */,
+				A2B625BF154B1DEC00870699 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2B62595154B1DEC00870699 = {
+			isa = PBXGroup;
+			children = (
+				A2B625AA154B1DEC00870699 /* Accelerometer-Data-Logger */,
+				A2B625C2154B1DEC00870699 /* Accelerometer-Data-LoggerTests */,
+				A2B625A3154B1DEC00870699 /* Frameworks */,
+				A2B625A1154B1DEC00870699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2B625A1154B1DEC00870699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2B625A0154B1DEC00870699 /* Accelerometer-Data-Logger.app */,
+				A2B625BB154B1DEC00870699 /* Accelerometer-Data-LoggerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2B625A3154B1DEC00870699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2B625A4154B1DEC00870699 /* UIKit.framework */,
+				A2B625A6154B1DEC00870699 /* Foundation.framework */,
+				A2B625A8154B1DEC00870699 /* CoreGraphics.framework */,
+				A2B625BC154B1DEC00870699 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2B625AA154B1DEC00870699 /* Accelerometer-Data-Logger */ = {
+			isa = PBXGroup;
+			children = (
+				A2B625B3154B1DEC00870699 /* AppDelegate.h */,
+				A2B625B4154B1DEC00870699 /* AppDelegate.m */,
+				A2B625AB154B1DEC00870699 /* Supporting Files */,
+			);
+			path = "Accelerometer-Data-Logger";
+			sourceTree = "<group>";
+		};
+		A2B625AB154B1DEC00870699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B625AC154B1DEC00870699 /* Accelerometer-Data-Logger-Info.plist */,
+				A2B625AD154B1DEC00870699 /* InfoPlist.strings */,
+				A2B625B0154B1DEC00870699 /* main.m */,
+				A2B625B2154B1DEC00870699 /* Accelerometer-Data-Logger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2B625C2154B1DEC00870699 /* Accelerometer-Data-LoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B625C8154B1DEC00870699 /* Accelerometer_Data_LoggerTests.h */,
+				A2B625C9154B1DEC00870699 /* Accelerometer_Data_LoggerTests.m */,
+				A2B625C3154B1DEC00870699 /* Supporting Files */,
+			);
+			path = "Accelerometer-Data-LoggerTests";
+			sourceTree = "<group>";
+		};
+		A2B625C3154B1DEC00870699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2B625C4154B1DEC00870699 /* Accelerometer-Data-LoggerTests-Info.plist */,
+				A2B625C5154B1DEC00870699 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2B6259F154B1DEC00870699 /* Accelerometer-Data-Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B625CD154B1DEC00870699 /* Build configuration list for PBXNativeTarget "Accelerometer-Data-Logger" */;
+			buildPhases = (
+				A2B6259C154B1DEC00870699 /* Sources */,
+				A2B6259D154B1DEC00870699 /* Frameworks */,
+				A2B6259E154B1DEC00870699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accelerometer-Data-Logger";
+			productName = "Accelerometer-Data-Logger";
+			productReference = A2B625A0154B1DEC00870699 /* Accelerometer-Data-Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2B625BA154B1DEC00870699 /* Accelerometer-Data-LoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2B625D0154B1DEC00870699 /* Build configuration list for PBXNativeTarget "Accelerometer-Data-LoggerTests" */;
+			buildPhases = (
+				A2B625B6154B1DEC00870699 /* Sources */,
+				A2B625B7154B1DEC00870699 /* Frameworks */,
+				A2B625B8154B1DEC00870699 /* Resources */,
+				A2B625B9154B1DEC00870699 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2B625C1154B1DEC00870699 /* PBXTargetDependency */,
+			);
+			name = "Accelerometer-Data-LoggerTests";
+			productName = "Accelerometer-Data-LoggerTests";
+			productReference = A2B625BB154B1DEC00870699 /* Accelerometer-Data-LoggerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2B62597154B1DEC00870699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A2B6259A154B1DEC00870699 /* Build configuration list for PBXProject "Accelerometer-Data-Logger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2B62595154B1DEC00870699;
+			productRefGroup = A2B625A1154B1DEC00870699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2B6259F154B1DEC00870699 /* Accelerometer-Data-Logger */,
+				A2B625BA154B1DEC00870699 /* Accelerometer-Data-LoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2B6259E154B1DEC00870699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B625AF154B1DEC00870699 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B625B8154B1DEC00870699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B625C7154B1DEC00870699 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2B625B9154B1DEC00870699 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2B6259C154B1DEC00870699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B625B1154B1DEC00870699 /* main.m in Sources */,
+				A2B625B5154B1DEC00870699 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B625B6154B1DEC00870699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B625CA154B1DEC00870699 /* Accelerometer_Data_LoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2B625C1154B1DEC00870699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2B6259F154B1DEC00870699 /* Accelerometer-Data-Logger */;
+			targetProxy = A2B625C0154B1DEC00870699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2B625AD154B1DEC00870699 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B625AE154B1DEC00870699 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2B625C5154B1DEC00870699 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2B625C6154B1DEC00870699 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2B625CB154B1DEC00870699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2B625CC154B1DEC00870699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2B625CE154B1DEC00870699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer-Data-Logger/Accelerometer-Data-Logger-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer-Data-Logger/Accelerometer-Data-Logger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2B625CF154B1DEC00870699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer-Data-Logger/Accelerometer-Data-Logger-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer-Data-Logger/Accelerometer-Data-Logger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2B625D1154B1DEC00870699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Accelerometer-Data-Logger.app/Accelerometer-Data-Logger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer-Data-Logger/Accelerometer-Data-Logger-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer-Data-LoggerTests/Accelerometer-Data-LoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A2B625D2154B1DEC00870699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Accelerometer-Data-Logger.app/Accelerometer-Data-Logger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accelerometer-Data-Logger/Accelerometer-Data-Logger-Prefix.pch";
+				INFOPLIST_FILE = "Accelerometer-Data-LoggerTests/Accelerometer-Data-LoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2B6259A154B1DEC00870699 /* Build configuration list for PBXProject "Accelerometer-Data-Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B625CB154B1DEC00870699 /* Debug */,
+				A2B625CC154B1DEC00870699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2B625CD154B1DEC00870699 /* Build configuration list for PBXNativeTarget "Accelerometer-Data-Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B625CE154B1DEC00870699 /* Debug */,
+				A2B625CF154B1DEC00870699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2B625D0154B1DEC00870699 /* Build configuration list for PBXNativeTarget "Accelerometer-Data-LoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2B625D1154B1DEC00870699 /* Debug */,
+				A2B625D2154B1DEC00870699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2B62597154B1DEC00870699 /* Project object */;
+}
